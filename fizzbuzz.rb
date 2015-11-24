@@ -8,6 +8,8 @@ class Fixnum
     super_to_s
   end
 
+  private
+
   def divisible_by(number)
     to_i % number == 0
   end
